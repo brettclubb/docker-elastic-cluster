@@ -5,7 +5,8 @@ services:
     container_name: elasticsearch
     environment:
       - cluster.name=docker-cluster
-      - discovery.seed_hosts=["127.0.0.1", "[::1]"]
+      # - discovery.type=single-node # <-- Uncomment on first run; comment after
+      - discovery.seed_hosts=["127.0.0.1", "[::1]"] # <-- Comment on first; uncomment after
       - bootstrap.memory_lock=true
       - http.cors.enabled=true
       - http.cors.allow-origin=*
