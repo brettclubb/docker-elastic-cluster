@@ -7,3 +7,6 @@
 
 # Getting Started
 1. `docker-compose up -d`
+2. Access Elastic Cluster health [http://127.0.0.1:9200](http://127.0.0.1:9200)
+3. Access Kibana UI [http://127.0.0.1:5601](http://127.0.0.1:5601)
+4. Access Elastic Head Plugin [http://127.0.0.1:9100](http://127.0.0.1:9100)
